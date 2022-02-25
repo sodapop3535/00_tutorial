@@ -1,0 +1,40 @@
+[initialization of directory]
+git init
+git clone ... copy remote repository
+
+[save change]
+git add <file name>
+git commit <file name> -m <message>
+
+[check differences]
+git diff ... check difference between 
+git diff --staged
+
+[check status]
+git status
+
+[check log]
+git log
+git log --oneline
+git log -p <file name>
+git log -n <commit number> ... get n commit log
+
+[remove file or commit]
+git rm <file name> ... completely delete file from current directory
+git rm -r <directory name> ... completely delete file 
+git rm --cached <file name> ... remove file  in repository but it still exist in worktree.
+
+[remember file moving]
+git mv <old file path> <new file path>
+
+[upload changes on github]
+git remote add origin <git url> ... registar github's url as origin by add option,so origin is an alias of url
+git push <remote name> <branch name> ... origin->url pass's alias , master means branch
+    ex: git push origin master
+    ex: git remote add origin https://github.com/sodapop3535/00_tutorial.git
+    ex: git push origin master\
+
+git push -u <remote name> <git url>...Adding -u, git remember <remote name> <git url> , then you can sync repository by typing "git push"
+
+[download repository]
+git clone
