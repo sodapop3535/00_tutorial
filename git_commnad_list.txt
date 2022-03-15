@@ -1,3 +1,5 @@
+--global ... change settings on computer
+
 [initialization of directory]
 git init
 git clone ... copy remote repository
@@ -38,3 +40,9 @@ git push -u <remote name> <git url>...Adding -u, git remember <remote name> <git
 
 [download repository]
 git clone
+
+[naming alias]
+git config  --global alias.ci commit
+git config  --global alias.st status
+git config  --global alias.co checkout
+git config  --global alias.br branch
