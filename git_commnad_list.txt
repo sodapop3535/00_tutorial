@@ -46,3 +46,10 @@ git config  --global alias.ci commit
 git config  --global alias.st status
 git config  --global alias.co checkout
 git config  --global alias.br branch
+
+[cancel changes after commit]
+git checkout -- <file name>         ... cancel last file's change
+git checkout -- <Directory name>    ... cancel all file's changes in specified Directory    
+git checkout -- .                   ... cancel all file's changes
+
+[]
