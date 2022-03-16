@@ -59,3 +59,4 @@ git reset HEAD .
 
 [uncommit]
 git commit --amend ... never use this after pushed(commit on the remote repository)
+
