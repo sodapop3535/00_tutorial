@@ -63,5 +63,7 @@ git commit --amend ... never use this after pushed(commit on the remote reposito
 
 [git ]
 1.git fetch <remote name>(ex:origin)...リモートリポジトリからダウンロードされローカルリポジトリ
-に反映されるがワークツリー（最下層）には反映されない
-2.git merge
+に反映されるがワークツリー（最下層）には反映されない,ブランチが新しく作られる？
+2.git merge <branch_name>... 
+git branch -a ...check out all branches
+
