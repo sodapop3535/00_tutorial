@@ -30,6 +30,7 @@ git rm --cached <file name> ... remove file  in repository but it still exist in
 git mv <old file path> <new file path>
 
 [upload changes on github]
+git remote -v ... check <remote name> with url
 git remote add origin <git url> ... registar github's url as origin by add option,so origin is an alias of url
 git push <remote name> <branch name> ... origin->url pass's alias , master means branch
     ex: git push origin master
@@ -57,6 +58,10 @@ git reset HEAD <filename>
 git reset HEAD <directory>
 git reset HEAD .
 
-[uncommit]
+[substitute]
 git commit --amend ... never use this after pushed(commit on the remote repository)
 
+[git ]
+1.git fetch <remote name>(ex:origin)...リモートリポジトリからダウンロードされローカルリポジトリ
+に反映されるがワークツリー（最下層）には反映されない
+2.git merge
